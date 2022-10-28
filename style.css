@@ -1,7 +1,8 @@
 ::-webkit-scrollbar {
     display: none;
 }
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,400;1,700&display=swap');
 
 
 body {
@@ -9,7 +10,9 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Josefin Sans', sans-serif;
+    font-style: italic;
     font-size: .5em;
+    height: 200vh;
 }
 
 /* HAMBURGER BUTTON ENTER */
@@ -23,6 +26,7 @@ body {
     height: 20px;
     position: relative;
 }
+
 .navbar-toggler,
 .navbar-toggler:focus,
 .navbar-toggler:active,
@@ -97,7 +101,7 @@ body {
     align-items: center;
 }
 
-.carouselItems div img{
+.carouselItems div img {
     margin: 5px;
     border-radius: 50%;
     display: flex;
@@ -110,3 +114,49 @@ body {
 }
 
 /* CAROUSEL EXIT */
+
+/* BACKGROUND IMAGE ENTER */
+
+.backgroundImage img {
+    object-fit: cover;
+    height: 650px;
+    position: relative;
+}
+
+.backgroundImage .title,
+.backgroundImage .text, 
+.backgroundImage .buyButton {
+    color: aliceblue;
+    position: absolute;
+    bottom: 50px;
+    margin-left: 30px;
+}
+
+.backgroundImage .title {
+    font-size: 6em;
+    font-weight: 700;
+    bottom: 100px;
+}
+
+.backgroundImage .buyButton {
+    padding-left: 70px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 10% / 50%;
+    bottom: 30px;
+    height: 30px;
+    width: 200px;
+    background: aliceblue;
+    color: rgb(50, 50, 50);
+}
+
+.backgroundImage .buyButton img {
+    position: absolute;
+    left: 160px;
+    height: 30px;
+}
+
+/* BACKGROUND IMAGE EXIT */
