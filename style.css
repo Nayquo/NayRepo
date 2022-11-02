@@ -15,7 +15,11 @@ body {
     font-size: .5em;
 }
 
-/* HAMBURGER BUTTON ENTER */
+/* NAVBAR AND HAMBURGER BUTTON ENTER */
+
+.navbar-nav {
+    font-size: .7rem;
+}
 
 .navbar {
     background: aliceblue;
@@ -85,7 +89,7 @@ body {
     transform: rotate(0deg);
 }
 
-/* HAMBURGER BUTTON EXIT*/
+/* NAVBAR AND HAMBURGER BUTTON EXIT*/
 
 /* CAROUSEL ENTRER */
 .carouselContainer {
@@ -173,3 +177,19 @@ body {
     }
 
 /* CARDS EXIT */
+
+@media screen and (width >= 992px) {
+    .navbar .container img:not(.logo) {
+        display: none;
+    }
+
+    .navbar .logo {
+        display: none;
+    }
+}
+
+@media screen and (width <= 991px) {
+    .navbar .brand-logo {
+        display: none;
+    }
+}
