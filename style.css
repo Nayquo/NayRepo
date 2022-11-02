@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,400;1,700&display=swap');
+
+
 ::-webkit-scrollbar {
     display: none;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,400;1,700&display=swap');
 
 
 body {
@@ -12,7 +13,6 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     font-style: italic;
     font-size: .5em;
-    height: 200vh;
 }
 
 /* HAMBURGER BUTTON ENTER */
@@ -117,10 +117,14 @@ body {
 
 /* BACKGROUND IMAGE ENTER */
 
-.backgroundImage img {
-    object-fit: cover;
-    height: 650px;
+.backgroundImage {
     position: relative;
+}
+
+.backgroundImage .bgimg{
+    object-fit: cover;
+    height: 77vh;
+    width: 100%;
 }
 
 .backgroundImage .title,
@@ -128,14 +132,14 @@ body {
 .backgroundImage .buyButton {
     color: aliceblue;
     position: absolute;
-    bottom: 50px;
+    bottom: 100px;
     margin-left: 30px;
 }
 
 .backgroundImage .title {
     font-size: 6em;
     font-weight: 700;
-    bottom: 100px;
+    bottom: 150px;
 }
 
 .backgroundImage .buyButton {
@@ -146,7 +150,7 @@ body {
     font-weight: 700;
     text-decoration: none;
     border-radius: 10% / 50%;
-    bottom: 30px;
+    bottom: 80px;
     height: 30px;
     width: 200px;
     background: aliceblue;
@@ -160,3 +164,7 @@ body {
 }
 
 /* BACKGROUND IMAGE EXIT */
+
+/* CARDS ENTER */
+
+/* CARDS EXIT */
