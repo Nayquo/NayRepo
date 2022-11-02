@@ -166,5 +166,10 @@ body {
 /* BACKGROUND IMAGE EXIT */
 
 /* CARDS ENTER */
+    
+    .text-primary,
+    .card-text{
+        font-size: .7rem;
+    }
 
 /* CARDS EXIT */
