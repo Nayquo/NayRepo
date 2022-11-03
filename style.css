@@ -182,14 +182,5 @@ body {
     .navbar .container img:not(.logo) {
         display: none;
     }
-
-    .navbar .logo {
-        display: none;
-    }
 }
 
-@media screen and (width <= 991px) {
-    .navbar .brand-logo {
-        display: none;
-    }
-}
